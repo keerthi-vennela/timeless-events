@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TIMELESS EVENTS — Luxury Event Décor & Theme Planning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="nav-logo">TIMELESS <em>EVENTS</em></a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#themes">Themes</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#testimonials">Stories</a></li>
+      <li><a href="#contact" class="nav-cta">Book Now</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══════════════════════ HERO ═══════════════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-eyebrow">Luxury Event Décor & Theme Planning</span>
+      <h1 class="hero-title">Every Moment, <em>Perfectly</em><br>Curated</h1>
+      <p class="hero-sub">We design bespoke celebrations — from intimate gatherings<br>to grand galas — that linger forever in memory.</p>
+      <div class="hero-actions">
+        <a href="#themes" class="btn-primary">Explore Themes</a>
+        <a href="#contact" class="btn-ghost">Request a Quote</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+    <!-- Floating stat badges -->
+    <div class="hero-badge b1"><strong>500+</strong><span>Events Curated</span></div>
+    <div class="hero-badge b2"><strong>12+</strong><span>Years of Excellence</span></div>
+  </section>
+
+  <!-- ═══════════════════════ INTRO STRIP ═══════════════════════ -->
+  <section class="strip">
+    <div class="strip-inner">
+      <span>✦ Weddings</span>
+      <span>✦ Birthdays</span>
+      <span>✦ Engagements</span>
+      <span>✦ Baby Showers</span>
+      <span>✦ Anniversaries</span>
+      <span>✦ Corporate Events</span>
+      <span>✦ Weddings</span>
+      <span>✦ Birthdays</span>
+      <span>✦ Engagements</span>
+      <span>✦ Baby Showers</span>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ GALLERY — THEMES ═══════════════════════ -->
+  <section class="section" id="themes">
+    <div class="section-head reveal">
+      <span class="eyebrow">Curated Collections</span>
+      <h2>Event <em>Themes</em></h2>
+      <p>Choose your celebration style — each category unlocks a world of handcrafted décor ideas.</p>
+    </div>
+
+    <div class="theme-grid">
+
+      <div class="theme-card reveal" data-category="birthday">
+        <div class="theme-img-wrap">
+          <img src="images/birthday1.jpg" alt="Birthday Décor" loading="lazy" onerror="this.parentElement.classList.add('img-fallback')" />
+          <div class="theme-overlay">
+            <button class="btn-view" data-category="birthday">View Décor ↗</button>
+          </div>
+        </div>
+        <div class="theme-info">
+          <span class="theme-tag">06 Looks</span>
+          <h3>Birthday <em>Celebrations</em></h3>
+          <p>Balloons, neons, florals & bespoke setups for every age and milestone.</p>
+        </div>
+      </div>
+
+      <div class="theme-card reveal" data-category="wedding">
+        <div class="theme-img-wrap">
+          <img src="images/wedding1.jpg" alt="Wedding Décor" loading="lazy" onerror="this.parentElement.classList.add('img-fallback')" />
+          <div class="theme-overlay">
+            <button class="btn-view" data-category="wedding">View Décor ↗</button>
+          </div>
+        </div>
+        <div class="theme-info">
+          <span class="theme-tag">06 Looks</span>
+          <h3>Wedding <em>Grandeur</em></h3>
+          <p>Mandaps, aisle magic, fairy-light ceilings & garden ceremonies.</p>
+        </div>
+      </div>
+
+      <div class="theme-card reveal" data-category="engagement">
+        <div class="theme-img-wrap">
+          <img src="images/engagement1.jpg" alt="Engagement Décor" loading="lazy" onerror="this.parentElement.classList.add('img-fallback')" />
+          <div class="theme-overlay">
+            <button class="btn-view" data-category="engagement">View Décor ↗</button>
+          </div>
+        </div>
+        <div class="theme-info">
+          <span class="theme-tag">06 Looks</span>
+          <h3>Engagement <em>Soirée</em></h3>
+          <p>Romantic arches, petal floors & candle-lit settings for your perfect yes.</p>
+        </div>
+      </div>
+
+      <div class="theme-card reveal" data-category="babyshower">
+        <div class="theme-img-wrap">
+          <img src="images/babyshower1.jpg" alt="Baby Shower Décor" loading="lazy" onerror="this.parentElement.classList.add('img-fallback')" />
+          <div class="theme-overlay">
+            <button class="btn-view" data-category="babyshower">View Décor ↗</button>
+          </div>
+        </div>
+        <div class="theme-info">
+          <span class="theme-tag">06 Looks</span>
+          <h3>Baby Shower <em>Magic</em></h3>
+          <p>Dreamy pastels, balloon clouds & whimsical forest setups.</p>
+        </div>
+      </div>
+
+      <div class="theme-card reveal" data-category="anniversary">
+        <div class="theme-img-wrap">
+          <img src="images/anniversary1.jpg" alt="Anniversary Décor" loading="lazy" onerror="this.parentElement.classList.add('img-fallback')" />
+          <div class="theme-overlay">
+            <button class="btn-view" data-category="anniversary">View Décor ↗</button>
+          </div>
+        </div>
+        <div class="theme-info">
+          <span class="theme-tag">06 Looks</span>
+          <h3>Anniversary <em>Elegance</em></h3>
+          <p>Timeless décor for silver, gold and milestone anniversary galas.</p>
+        </div>
+      </div>
+
+      <div class="theme-card reveal" data-category="corporate">
+        <div class="theme-img-wrap">
+          <img src="images/corporate1.jpg" alt="Corporate Event Décor" loading="lazy" onerror="this.parentElement.classList.add('img-fallback')" />
+          <div class="theme-overlay">
+            <button class="btn-view" data-category="corporate">View Décor ↗</button>
+          </div>
+        </div>
+        <div class="theme-info">
+          <span class="theme-tag">06 Looks</span>
+          <h3>Corporate <em>Events</em></h3>
+          <p>Sleek conference setups, galas & award nights with refined brand aesthetics.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ SUBTHEME GALLERY ═══════════════════════ -->
+  <section class="decor-gallery" id="decorGallery">
+    <div class="decor-gallery-inner">
+      <button class="decor-close" id="decorClose" aria-label="Close gallery">✕ Close</button>
+      <div class="decor-header">
+        <span class="eyebrow" id="decorEyebrow">Selected Theme</span>
+        <h2 id="decorTitle">Décor <em>Gallery</em></h2>
+        <p id="decorDesc">Browse our curated décor looks for this theme.</p>
+      </div>
+      <div class="decor-grid" id="decorGrid">
+        <!-- Dynamically injected by JS -->
+      </div>
+      <div class="decor-cta">
+        <a href="#contact" class="btn-primary decor-book">Book This Theme →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ SERVICES ═══════════════════════ -->
+  <section class="section section-dark" id="services">
+    <div class="section-head reveal">
+      <span class="eyebrow light">What We Offer</span>
+      <h2 class="light">Our <em>Services</em></h2>
+      <p class="light">End-to-end event solutions under one roof.</p>
+    </div>
+    <div class="services-grid">
+      <div class="scard reveal">
+        <div class="scard-icon">◈</div>
+        <h3>Theme Decoration</h3>
+        <p>From minimalist ivory to maximalist grandeur — we transform spaces into living art tailored to your vision.</p>
+        <div class="scard-bar"></div>
+      </div>
+      <div class="scard reveal">
+        <div class="scard-icon">❋</div>
+        <h3>Floral Design</h3>
+        <p>Handcrafted floral installations, centrepieces, arches and aisle arrangements sourced from premium growers.</p>
+        <div class="scard-bar"></div>
+      </div>
+      <div class="scard reveal">
+        <div class="scard-icon">⬡</div>
+        <h3>Venue Setup</h3>
+        <p>Every inch managed — furniture, lighting rigs, backdrops, balloon art and stage fabrication.</p>
+        <div class="scard-bar"></div>
+      </div>
+      <div class="scard reveal">
+        <div class="scard-icon">✦</div>
+        <h3>Event Planning</h3>
+        <p>Full-cycle conceptualization, vendor management, scheduling and on-site execution by our expert team.</p>
+        <div class="scard-bar"></div>
+      </div>
+      <div class="scard reveal">
+        <div class="scard-icon">⊹</div>
+        <h3>Photography & Film</h3>
+        <p>Cinematic visual storytelling — every glance, laugh and moment preserved in luxury quality forever.</p>
+        <div class="scard-bar"></div>
+      </div>
+      <div class="scard reveal">
+        <div class="scard-icon">◇</div>
+        <h3>Catering Coordination</h3>
+        <p>World-class culinary experiences curated to complement your event's mood, culture and scale.</p>
+        <div class="scard-bar"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ TRUST ═══════════════════════ -->
+  <section class="section section-sage" id="trust">
+    <div class="section-head reveal">
+      <span class="eyebrow">Our Promise</span>
+      <h2>Why Choose <em>Timeless Events</em></h2>
+      <p>Six pillars of excellence that define every event we touch.</p>
+    </div>
+    <div class="trust-grid">
+      <div class="tcard reveal"><span class="tcard-num">01</span><h3>Decade of Experience</h3><p>Award-winning designers and coordinators with 12+ years of luxury event expertise.</p></div>
+      <div class="tcard reveal"><span class="tcard-num">02</span><h3>Bespoke Concepts</h3><p>No two events are alike. Every celebration is a blank canvas filled with your unique story.</p></div>
+      <div class="tcard reveal"><span class="tcard-num">03</span><h3>Premium Materials</h3><p>Only the finest florals, fabrics, lighting and partner vendors feature in our events.</p></div>
+      <div class="tcard reveal"><span class="tcard-num">04</span><h3>On-Time Execution</h3><p>Flawless setup, always complete before your guests arrive. Timelines are sacred.</p></div>
+      <div class="tcard reveal"><span class="tcard-num">05</span><h3>Transparent Pricing</h3><p>Luxury within reach. Our tiered packages ensure extraordinary events at every budget.</p></div>
+      <div class="tcard reveal"><span class="tcard-num">06</span><h3>98% Client Return</h3><p>Our relationships outlast the events themselves. Clients become family.</p></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ TESTIMONIALS ═══════════════════════ -->
+  <section class="section" id="testimonials">
+    <div class="section-head reveal">
+      <span class="eyebrow">Real Stories</span>
+      <h2>What Our Clients <em>Say</em></h2>
+      <p>Words from the people whose celebrations we've made unforgettable.</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal">
+        <div class="t-quotemark">"</div>
+        <p>TIMELESS EVENTS turned our wedding into a fairytale. Every detail — florals, fairy lights, the mandap — was breathtaking. Our guests are still talking about it a year later.</p>
+        <div class="t-stars">★★★★★</div>
+        <div class="t-client">
+          <div class="t-avatar" style="background:#c9b99a"></div>
+          <div><strong>Priya Mehta</strong><span>Wedding · Mumbai, 2024</span></div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="t-quotemark">"</div>
+        <p>We hired them for our company gala — 350 guests, zero chaos. The décor was world-class and every element was handled with grace and absolute professionalism.</p>
+        <div class="t-stars">★★★★★</div>
+        <div class="t-client">
+          <div class="t-avatar" style="background:#a3b9b0"></div>
+          <div><strong>Raj Singhania</strong><span>Corporate Gala · Delhi, 2024</span></div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="t-quotemark">"</div>
+        <p>My daughter's baby shower was pure magic. They brought my Pinterest vision to life and then exceeded it. The balloon cloud canopy alone had everyone absolutely mesmerised.</p>
+        <div class="t-stars">★★★★★</div>
+        <div class="t-client">
+          <div class="t-avatar" style="background:#d4c5b0"></div>
+          <div><strong>Ananya Krishnan</strong><span>Baby Shower · Hyderabad, 2025</span></div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="t-quotemark">"</div>
+        <p>Our 25th anniversary felt like a second wedding — even more beautiful than the first. True artists with heart. We couldn't have imagined it without this extraordinary team.</p>
+        <div class="t-stars">★★★★★</div>
+        <div class="t-client">
+          <div class="t-avatar" style="background:#b9c9c4"></div>
+          <div><strong>Vikram & Sunita Rao</strong><span>Anniversary · Bangalore, 2025</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ CONTACT ═══════════════════════ -->
+  <section class="section section-dark" id="contact">
+    <div class="contact-wrap">
+      <div class="contact-left reveal">
+        <span class="eyebrow light">Let's Connect</span>
+        <h2 class="light">Begin Your <em>Journey</em></h2>
+        <p class="contact-desc">Ready to create something extraordinary? Share your vision with us — together we'll craft the celebration of a lifetime.</p>
+        <div class="contact-details">
+          <div class="cdetail"><span class="cicon">◎</span><div><strong>Studio</strong><p>The Grand Atelier, 4th Floor<br>Jubilee Hills, Hyderabad — 500033</p></div></div>
+          <div class="cdetail"><span class="cicon">◎</span><div><strong>Phone</strong><p>+91 98765 43210</p></div></div>
+          <div class="cdetail"><span class="cicon">◎</span><div><strong>Email</strong><p>hello@timelessevents.in</p></div></div>
+        </div>
+        <div class="social-row">
+          <a href="#" class="sbtn" aria-label="Instagram">ig</a>
+          <a href="#" class="sbtn" aria-label="Facebook">fb</a>
+          <a href="#" class="sbtn" aria-label="LinkedIn">in</a>
+          <a href="#" class="sbtn" aria-label="YouTube">yt</a>
+        </div>
+      </div>
+      <div class="contact-right reveal">
+        <form class="cform" onsubmit="handleSubmit(event)">
+          <div class="fgroup">
+            <label>Full Name</label>
+            <input type="text" placeholder="e.g. Priya Sharma" required />
+          </div>
+          <div class="frow">
+            <div class="fgroup">
+              <label>Email</label>
+              <input type="email" placeholder="you@example.com" required />
+            </div>
+            <div class="fgroup">
+              <label>Phone</label>
+              <input type="tel" placeholder="+91 XXXXX XXXXX" />
+            </div>
+          </div>
+          <div class="fgroup">
+            <label>Event Type</label>
+            <select>
+              <option value="" disabled selected>Select your event</option>
+              <option>Birthday</option>
+              <option>Wedding</option>
+              <option>Engagement</option>
+              <option>Baby Shower</option>
+              <option>Anniversary</option>
+              <option>Corporate Event</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="fgroup">
+            <label>Message</label>
+            <textarea rows="4" placeholder="Tell us about your dream event..."></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Send Enquiry →</button>
+          <div class="form-success" id="formSuccess">✓ Thank you! We'll be in touch shortly.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-logo">TIMELESS <em>EVENTS</em></div>
+      <p class="footer-tagline">Crafting Timeless Celebrations Since 2014</p>
+    </div>
+    <div class="footer-rule"></div>
+    <div class="footer-bottom">
+      <span>© 2025 TIMELESS EVENTS. All rights reserved.</span>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Instagram</a>
+      </div>
+      <span>Hyderabad · Mumbai · Delhi · Bangalore</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
